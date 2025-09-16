@@ -8,7 +8,7 @@ st.markdown("<h1 style='font-size: 30px;'>Dashboard de vendas e investimentos</h
 st.markdown("<h3 style='font-size: 20px;'>Análise do desempenho das vendas e investimentos</h3>", unsafe_allow_html=True)
 st.sidebar.title("Filtros")
 
-caminho_arquivo = r"C:\\Users\SALVADORA SHEILA\\OneDrive\\Desktop\Dashboards\\Projectos de Portofolio1\\Dashboard de investimento.csv"
+caminho_arquivo = "Dashboard de investimento.csv"
 df=pd.read_csv(caminho_arquivo)
 print(df)
 
